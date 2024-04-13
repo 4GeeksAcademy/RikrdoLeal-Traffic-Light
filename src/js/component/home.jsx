@@ -3,17 +3,16 @@ import { useState } from "react";
 
 export function Home() {
 	const [color, setColor] = useState("");
-
 	return (
-		<div ClassName="container">
+		<div className="container">
 			<div className="traffic-pole"></div>
 			<div className="traffic-light">
 				<div onClick={() => setColor("red")}
-					className={"light red" + (color === "red" ? " glow" : "")} ></div>
+					className={"light red" + (color === "red" ? " glowRed" : "")} ></div>
 				<div onClick={() => setColor("yellow")}
-					className={"light yellow" + (color === "yellow" ? " glow" : "")} ></div>
+					className={"light yellow" + (color === "yellow" ? " glowYellow" : "")} ></div>
 				<div onClick={() => setColor("green")}
-					className={"light green" + (color === "green" ? " glow" : "")} ></div>
+					className={"light green" + (color === "green" ? " glowGreen" : "")} ></div>
 			</div>
 		</div>
 	);

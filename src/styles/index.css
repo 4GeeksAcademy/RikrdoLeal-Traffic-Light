@@ -24,13 +24,22 @@
 }
 .red{
     background-color: red;
+    cursor: pointer
 }
 .yellow{
     background-color: yellow;
+    cursor: pointer
 }
 .green{
     background-color: green;
+    cursor: pointer
 }
-.glow{
-    box-shadow: 0px 0px 30px 15px rgb(219, 221, 96)
+.glowRed{
+    box-shadow: 0px 0px 80px 30px rgb(221, 96, 96)
+}
+.glowYellow{
+    box-shadow: 0px 0px 80px 30px rgb(219, 221, 96)
+}
+.glowGreen{
+    box-shadow: 0px 0px 80px 30px rgb(33, 153, 27)
 }
